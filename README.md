@@ -3,7 +3,10 @@
 
    #### Install with script
 ```
-      wget -N "https://gist.githubusercontent.com/lyfe00011/0208883ee3a3f602d0f7c7ff138c05ea/raw/install.sh" && chmod +x install.sh && ./install.sh
+      wget -N "https://gist.githubusercontent.com/lyfe00011/0208883ee3a3f602d0f7c7ff138c05ea/raw/install.sh" && chmod +x install.sh 
+```
+```
+bash install.sh
 ```
  #### Install without script
  
@@ -59,7 +62,7 @@
        
 ###### 6. Enter Environment Variables
 
-###### copy paste lines below (remove SESSION_ID if not needs)
+###### copy paste lines below (paste it after adding the SESSION ID only)
 
 ```
          echo "SESSION_ID = Session_Id_you_Got_After_Scan_Dont_Add_This_Line_If_You_Can_Scan_From_Terminal_Itself
@@ -100,6 +103,6 @@
 
 ###### 7. start and stop bot
 
-         To start bot `pm2 start . --name botName`
+         To start bot `pm2 start . --name botName --attach`
 
          To stop bot `pm2 stop botName`
