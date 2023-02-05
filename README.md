@@ -1,5 +1,8 @@
-# aws_bot_deploy
-### Deploy on VPS or PC (Example here as in Ubuntu
+### Deploy lyfe bot on the aws for 2 rupees
+<p align="center">
+<img src="https://i.imgur.com/EjCAmkU.jpeg" alt="animated" width="400" height="280" />
+</p>
+
 
    #### Install with script
 ```
