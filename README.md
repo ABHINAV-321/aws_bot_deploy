@@ -7,24 +7,23 @@
  ```
  #### Install without script
  
- ######1. Install git ffmpeg curl
+ ###### 1. Install git ffmpeg curl
    
     ```
-      sudo apt -y update &&  sudo apt -y upgrade
+    sudo apt -y update &&  sudo apt -y upgrade
       ```
       
-     ``` 
-      sudo apt -y install git ffmpeg curl
+     ```
+     sudo apt -y install git ffmpeg curl
       ```
-***********
-
- ######2. Install nodejs
+*********
+###### 2. Install nodejs
       ```
-         sudo apt -y remove nodejs
+      sudo apt -y remove nodejs
       ```
       
       ```
-         curl -fsSl https://deb.nodesource.com/setup_lts.x | sudo bash - && sudo apt -y install nodejs
+        curl -fsSl https://deb.nodesource.com/setup_lts.x | sudo bash - && sudo apt -y install nodejs
       ```
       ###### 3. Install yarn
 ```
