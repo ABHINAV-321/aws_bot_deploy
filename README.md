@@ -2,34 +2,40 @@
 ### Deploy on VPS or PC (Example here as in Ubuntu
 
    #### Install with script
-
-      ```
-
+```
       wget -N "https://gist.githubusercontent.com/lyfe00011/0208883ee3a3f602d0f7c7ff138c05ea/raw/install.sh" && chmod +x install.sh && ./install.sh
-
+ ```
+ #### Install without script
+ 
+ ######1. Install git ffmpeg curl
+   
+    ```
+      sudo apt -y update &&  sudo apt -y upgrade
       ```
+      
+     ``` 
+      sudo apt -y install git ffmpeg curl
+      ```
+***********
 
-   #### Install without script
-
-   ##### 1. Install git ffmpeg curl
-      ``` sudo apt -y update &&  sudo apt -y upgrade```
-
-         sudo apt -y install git ffmpeg curl
-
-      ###### 2. Install nodejs
-
+ ######2. Install nodejs
+      ```
          sudo apt -y remove nodejs
-
+      ```
+      
+      ```
          curl -fsSl https://deb.nodesource.com/setup_lts.x | sudo bash - && sudo apt -y install nodejs
-
+      ```
       ###### 3. Install yarn
-
+```
          curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key add -
-
+```
+       ```  
          echo "deb https://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/sources.list.d/yarn.list
-
-         sudo apt -y update && sudo apt -y install yarn
-
+```
+      ```  
+        sudo apt -y update && sudo apt -y install yarn
+    ```
       ###### 4. Install pm2
 
          sudo yarn global add pm2
