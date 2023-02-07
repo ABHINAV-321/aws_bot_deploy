@@ -2,9 +2,9 @@
 <p align="center">
 <img src="https://i.imgur.com/EjCAmkU.jpeg" alt="animated" width="400" height="280" />
 </p>
-// ###### Create a AWS account for 2 rupees(indian) 
+\\ ###### Create a AWS account for 2 rupees(indian) 
 
-// https://aws.amazon.com/resources/create-account/
+\\ https://aws.amazon.com/resources/create-account/
 
    #### Install with script
 ```
@@ -13,9 +13,9 @@
 ```
 bash install.sh
 ```
-\* #### Install without script
+\\* #### Install without script
  
- ###### 1. Install git ffmpeg curl
+\\ ###### 1. Install git ffmpeg curl
    
 ```
     sudo apt -y update &&  sudo apt -y upgrade
