@@ -2,9 +2,9 @@
 <p align="center">
 <img src="https://i.imgur.com/EjCAmkU.jpeg" alt="animated" width="400" height="280" />
 </p>
-\\ ###### Create a AWS account for 2 rupees(indian) 
+<!-- ###### Create a AWS account for 2 rupees(indian) 
 
-\\ https://aws.amazon.com/resources/create-account/
+\\ https://aws.amazon.com/resources/create-account/ -->
 
    #### Install with script
 ```
@@ -13,6 +13,15 @@
 ```
 bash install.sh
 ```
+press ctrl+c(if not Working) 
+```
+cd TypeYourBotName
+```
+```
+pm2 start . --name botName --attach
+```
+
+
  <!-- \\* #### Install without script
  
 \\ ###### 1. Install git ffmpeg curl
@@ -107,8 +116,8 @@ bash install.sh
 ###### nano config.env, if you want edit. TO Save ctrl + o press enter then ctrl + x
 
 *\ -->
-###### 7. start and stop bot
+###### To  stop bot
 
-         To start bot `pm2 start . --name botName --attach`
+      <!--   To start bot `pm2 start . --name botName --attach`-->
 
          To stop bot `pm2 stop botName`
